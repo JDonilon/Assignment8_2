@@ -50,7 +50,9 @@ playAgain = 'yes'
 while playAgain == 'yes' or playAgain == 'y':
 #Keep it true to these two values
 	displayIntro()
-	caveNumber = choosecave()
+	#caveNumber = choosecave()
+	caveNumber = chooseCave()
+	#Added capitalization for correct reference
 	checkCave(caveNumber)
     
 	print('Do you want to play again? (yes or no)')
