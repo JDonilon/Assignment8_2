@@ -46,7 +46,9 @@ def checkCave(chosenCave):
 		#Did not have parentheses
 
 playAgain = 'yes'
-while playAgain = 'yes' or playAgain = 'y':
+#while playAgain = 'yes' or playAgain = 'y':
+while playAgain == 'yes' or playAgain == 'y':
+#Keep it true to these two values
 	displayIntro()
 	caveNumber = choosecave()
 	checkCave(caveNumber)
