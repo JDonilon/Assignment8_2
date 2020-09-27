@@ -41,7 +41,9 @@ def checkCave(chosenCave):
 	if chosenCave == str(friendlyCave):
 		print('Gives you his treasure!')
 	else:
-		print 'Gobbles you down in one bite!'
+		#print 'Gobbles you down in one bite!'
+		print('Gobbles you down in one bite!')
+		#Did not have parentheses
 
 playAgain = 'yes'
 while playAgain = 'yes' or playAgain = 'y':
